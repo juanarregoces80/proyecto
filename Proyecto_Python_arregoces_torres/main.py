@@ -1,9 +1,9 @@
-import camper
-import trainer
-import ruta
-import evaluacion
-import reportes
-import campuslands
+from modulos import camper
+from modulos import trainer
+from modulos import ruta
+from modulos import evaluacion
+from modulos import reportes
+from modulos import campuslands
 
 def menu():
     while True:
@@ -41,4 +41,4 @@ def menu():
 
 if __name__ == "__main__":
     menu()
-#sys.path.append(os.path.join(os.path.dirname(__file__), 'modulos')) por si lo quiero poner en la carpeta :modulos
+
