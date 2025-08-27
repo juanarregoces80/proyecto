@@ -41,3 +41,4 @@ def menu():
 
 if __name__ == "__main__":
     menu()
+#sys.path.append(os.path.join(os.path.dirname(__file__), 'modulos')) por si lo quiero poner en la carpeta :modulos
